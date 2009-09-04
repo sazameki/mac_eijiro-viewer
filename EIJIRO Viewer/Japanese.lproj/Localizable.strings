@@ -1,0 +1,23 @@
+"TBI Move" = "移動";
+"TBI Pronounce" = "発音";
+"TBI Search" = "検索";
+"TBI FullSearch" = "全文検索";
+
+"VER80_EXAMPLE_PREFIX" = "■・";
+"EXAMPLE_FIRST_PREFIX" = " /【用例】";
+
+"CANCELED_SEPARATOR" = "======== キャンセル ========\n";
+
+"FULLSEARCH_TITLE_EIJIRO" = "//// 【英辞郎】 ////";
+"FULLSEARCH_TITLE_RYAKUGORO" = "//// 【略語郎】 ////";
+"FULLSEARCH_TITLE_WAEIJIRO" = "//// 【和英辞郎】 ////";
+"FULLSEARCH_TITLE_REIJIRO" = "//// 【例辞郎】 ////";
+
+"FULLSEARCH_NOTFOUND" = "  見つかりません。";
+
+"SEARCH_NOTFOUND" = "'%@' は見つかりませんでした。\n";
+"GUESS_NOTFOUND" = "\n修正候補はありません。\n";
+"GUESS_TITLE" = "\n修正候補：\n";
+
+"FullSearchNoTarget" = "検索文字列が指定されていません。";
+"FullSearchNoDictionary" = "辞書が指定されていません。";

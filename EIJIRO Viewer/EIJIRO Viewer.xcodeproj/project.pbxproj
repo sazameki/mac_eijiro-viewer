@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8E0241F1075B5DA000042083 /* ServicesMenu.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E0241F0075B5DA000042083 /* ServicesMenu.strings */; };
+		8E43B334074387FA00386A1F /* ApplicationManager.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B332074387FA00386A1F /* ApplicationManager.h */; };
+		8E43B335074387FA00386A1F /* ApplicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B333074387FA00386A1F /* ApplicationManager.m */; };
+		8E43B3AD0743904800386A1F /* forward.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B3AB0743904800386A1F /* forward.tif */; };
+		8E43B3AE0743904800386A1F /* back.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B3AC0743904800386A1F /* back.tif */; };
+		8E43B3F307439A5600386A1F /* SearchManager.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B3F107439A5600386A1F /* SearchManager.h */; };
+		8E43B3F407439A5600386A1F /* SearchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B3F207439A5600386A1F /* SearchManager.m */; };
+		8E43B41707439B8600386A1F /* Location_Right_Progress.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B41107439B8500386A1F /* Location_Right_Progress.tif */; };
+		8E43B41907439B8600386A1F /* Location_Middle_Progress.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B41307439B8600386A1F /* Location_Middle_Progress.tif */; };
+		8E43B41B07439B8600386A1F /* Location_Left_Progress.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B41507439B8600386A1F /* Location_Left_Progress.tif */; };
+		8E43B42507439BA100386A1F /* NMTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B42107439BA100386A1F /* NMTextFieldCell.m */; };
+		8E43B42607439BA100386A1F /* NMTextFieldCell.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B42207439BA100386A1F /* NMTextFieldCell.h */; };
+		8E43B42707439BA100386A1F /* NMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B42307439BA100386A1F /* NMTextField.m */; };
+		8E43B42807439BA100386A1F /* NMTextField.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B42407439BA100386A1F /* NMTextField.h */; };
+		8E43B7D50743C16A00386A1F /* NMFontTransformer.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B7D30743C16A00386A1F /* NMFontTransformer.h */; };
+		8E43B7D60743C16A00386A1F /* NMFontTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B7D40743C16A00386A1F /* NMFontTransformer.m */; };
+		8E43B8B70743CBFB00386A1F /* NMSpeechManager.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B8B50743CBFB00386A1F /* NMSpeechManager.h */; };
+		8E43B8B80743CBFB00386A1F /* NMSpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B8B60743CBFB00386A1F /* NMSpeechManager.m */; };
+		8E43B9420743D47100386A1F /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B9410743D47100386A1F /* app.icns */; };
+		8E8D315A07468B3400DBC040 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E8D315907468B3400DBC040 /* Localizable.strings */; };
+		8EACB82E0757B3EB00C0F020 /* NSTextViewWithLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EACB82C0757B3EB00C0F020 /* NSTextViewWithLinks.m */; };
+		8EACB82F0757B3EC00C0F020 /* NSTextViewWithLinks.h in Resources */ = {isa = PBXBuildFile; fileRef = 8EACB82D0757B3EB00C0F020 /* NSTextViewWithLinks.h */; };
+		8EB6DBE10757C8E900FF4463 /* sound.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EB6DBE00757C8E900FF4463 /* sound.tif */; };
+		8EBD634D07463BEA00FDD2E7 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD634B07463BEA00FDD2E7 /* StringUtil.m */; };
+		8EBD634E07463BEA00FDD2E7 /* StringUtil.h in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD634C07463BEA00FDD2E7 /* StringUtil.h */; };
+		8EF63419075AAAB100980CDD /* search.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EF63418075AAAB100980CDD /* search.tif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4A9504CCFFE6A4B311CA0CBA /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		4A9504CDFFE6A4B311CA0CBA /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8EBD621407462FAB00FDD2E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* EIJIRO Viewer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EIJIRO Viewer_Prefix.pch"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* EIJIRO Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EIJIRO Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0241E8075B5D7F00042083 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/ServicesMenu.strings; sourceTree = "<group>"; };
+		8E0241F2075B5DA600042083 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/ServicesMenu.strings; sourceTree = "<group>"; };
+		8E43B332074387FA00386A1F /* ApplicationManager.h */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.h; path = ApplicationManager.h; sourceTree = "<group>"; };
+		8E43B333074387FA00386A1F /* ApplicationManager.m */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.objc; path = ApplicationManager.m; sourceTree = "<group>"; };
+		8E43B36F07438C1F00386A1F /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; lineEnding = 0; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8E43B3AB0743904800386A1F /* forward.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = forward.tif; sourceTree = "<group>"; };
+		8E43B3AC0743904800386A1F /* back.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = back.tif; sourceTree = "<group>"; };
+		8E43B3F107439A5600386A1F /* SearchManager.h */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.h; path = SearchManager.h; sourceTree = "<group>"; };
+		8E43B3F207439A5600386A1F /* SearchManager.m */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.objc; path = SearchManager.m; sourceTree = "<group>"; };
+		8E43B41107439B8500386A1F /* Location_Right_Progress.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Location_Right_Progress.tif; sourceTree = "<group>"; };
+		8E43B41307439B8600386A1F /* Location_Middle_Progress.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Location_Middle_Progress.tif; sourceTree = "<group>"; };
+		8E43B41507439B8600386A1F /* Location_Left_Progress.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Location_Left_Progress.tif; sourceTree = "<group>"; };
+		8E43B42107439BA100386A1F /* NMTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.objc; path = NMTextFieldCell.m; sourceTree = "<group>"; };
+		8E43B42207439BA100386A1F /* NMTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.h; path = NMTextFieldCell.h; sourceTree = "<group>"; };
+		8E43B42307439BA100386A1F /* NMTextField.m */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.objc; path = NMTextField.m; sourceTree = "<group>"; };
+		8E43B42407439BA100386A1F /* NMTextField.h */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.h; path = NMTextField.h; sourceTree = "<group>"; };
+		8E43B7D30743C16A00386A1F /* NMFontTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFontTransformer.h; sourceTree = "<group>"; };
+		8E43B7D40743C16A00386A1F /* NMFontTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFontTransformer.m; sourceTree = "<group>"; };
+		8E43B8B50743CBFB00386A1F /* NMSpeechManager.h */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.h; path = NMSpeechManager.h; sourceTree = "<group>"; };
+		8E43B8B60743CBFB00386A1F /* NMSpeechManager.m */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.objc; path = NMSpeechManager.m; sourceTree = "<group>"; };
+		8E43B9410743D47100386A1F /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = app.icns; sourceTree = "<group>"; };
+		8E7493D20747258800D2D3BF /* 説明書.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = "説明書.rtfd"; sourceTree = "<group>"; };
+		8E8D315B07468B3F00DBC040 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; lineEnding = 0; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8E8D318A07468EC700DBC040 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EACB82C0757B3EB00C0F020 /* NSTextViewWithLinks.m */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.objc; path = NSTextViewWithLinks.m; sourceTree = "<group>"; };
+		8EACB82D0757B3EB00C0F020 /* NSTextViewWithLinks.h */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.h; path = NSTextViewWithLinks.h; sourceTree = "<group>"; };
+		8EB6DBE00757C8E900FF4463 /* sound.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sound.tif; sourceTree = "<group>"; };
+		8EBD634B07463BEA00FDD2E7 /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		8EBD634C07463BEA00FDD2E7 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		8EF63418075AAAB100980CDD /* search.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = search.tif; sourceTree = "<group>"; };
+		8EFD37F8075B566100DCA0A6 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/MainMenu.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E43B6ED0743B3DA00386A1F /* Main */,
+				8E43B6EC0743B3C600386A1F /* UI Management */,
+				8E43B8B20743CBE000386A1F /* Speech Management */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* EIJIRO Viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* EIJIRO Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				8E7493D20747258800D2D3BF /* 説明書.rtfd */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "EIJIRO Viewer";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* EIJIRO Viewer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EACB22B0756719300C0F020 /* Images */,
+				8EACB22D075671B800C0F020 /* Nibs */,
+				8EACB22C075671A400C0F020 /* Strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E43B6EC0743B3C600386A1F /* UI Management */ = {
+			isa = PBXGroup;
+			children = (
+				8E43B332074387FA00386A1F /* ApplicationManager.h */,
+				8E43B333074387FA00386A1F /* ApplicationManager.m */,
+				8E43B7D30743C16A00386A1F /* NMFontTransformer.h */,
+				8E43B7D40743C16A00386A1F /* NMFontTransformer.m */,
+				8E43B42407439BA100386A1F /* NMTextField.h */,
+				8E43B42307439BA100386A1F /* NMTextField.m */,
+				8E43B42207439BA100386A1F /* NMTextFieldCell.h */,
+				8E43B42107439BA100386A1F /* NMTextFieldCell.m */,
+				8EACB82D0757B3EB00C0F020 /* NSTextViewWithLinks.h */,
+				8EACB82C0757B3EB00C0F020 /* NSTextViewWithLinks.m */,
+			);
+			name = "UI Management";
+			sourceTree = "<group>";
+		};
+		8E43B6ED0743B3DA00386A1F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8E43B3F107439A5600386A1F /* SearchManager.h */,
+				8E43B3F207439A5600386A1F /* SearchManager.m */,
+				8EBD634C07463BEA00FDD2E7 /* StringUtil.h */,
+				8EBD634B07463BEA00FDD2E7 /* StringUtil.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8E43B8B20743CBE000386A1F /* Speech Management */ = {
+			isa = PBXGroup;
+			children = (
+				8E43B8B50743CBFB00386A1F /* NMSpeechManager.h */,
+				8E43B8B60743CBFB00386A1F /* NMSpeechManager.m */,
+			);
+			name = "Speech Management";
+			sourceTree = "<group>";
+		};
+		8EACB22B0756719300C0F020 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8E43B9410743D47100386A1F /* app.icns */,
+				8E43B3AB0743904800386A1F /* forward.tif */,
+				8E43B3AC0743904800386A1F /* back.tif */,
+				8E43B41107439B8500386A1F /* Location_Right_Progress.tif */,
+				8E43B41307439B8600386A1F /* Location_Middle_Progress.tif */,
+				8E43B41507439B8600386A1F /* Location_Left_Progress.tif */,
+				8EF63418075AAAB100980CDD /* search.tif */,
+				8EB6DBE00757C8E900FF4463 /* sound.tif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8EACB22C075671A400C0F020 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				8E8D315907468B3400DBC040 /* Localizable.strings */,
+				8E0241F0075B5DA000042083 /* ServicesMenu.strings */,
+			);
+			name = Strings;
+			sourceTree = "<group>";
+		};
+		8EACB22D075671B800C0F020 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* EIJIRO Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4D2B5809ECF8E800313449 /* Build configuration list for PBXNativeTarget "EIJIRO Viewer" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				8EBD621407462FAB00FDD2E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/numata/proj/EIJIRO Viewer\"";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EIJIRO Viewer_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "EIJIRO Viewer";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			name = "EIJIRO Viewer";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "EIJIRO Viewer";
+			productReference = 8D1107320486CEB800E47090 /* EIJIRO Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8E4D2B5C09ECF8E800313449 /* Build configuration list for PBXProject "EIJIRO Viewer" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9504CCFFE6A4B311CA0CBA /* Development */,
+				4A9504CDFFE6A4B311CA0CBA /* Deployment */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* EIJIRO Viewer */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* EIJIRO Viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				8E43B334074387FA00386A1F /* ApplicationManager.h in Resources */,
+				8E8D315A07468B3400DBC040 /* Localizable.strings in Resources */,
+				8E43B3AD0743904800386A1F /* forward.tif in Resources */,
+				8E43B3AE0743904800386A1F /* back.tif in Resources */,
+				8E43B3F307439A5600386A1F /* SearchManager.h in Resources */,
+				8E43B41707439B8600386A1F /* Location_Right_Progress.tif in Resources */,
+				8E43B41907439B8600386A1F /* Location_Middle_Progress.tif in Resources */,
+				8E43B41B07439B8600386A1F /* Location_Left_Progress.tif in Resources */,
+				8E43B42607439BA100386A1F /* NMTextFieldCell.h in Resources */,
+				8E43B42807439BA100386A1F /* NMTextField.h in Resources */,
+				8E43B7D50743C16A00386A1F /* NMFontTransformer.h in Resources */,
+				8E43B8B70743CBFB00386A1F /* NMSpeechManager.h in Resources */,
+				8E43B9420743D47100386A1F /* app.icns in Resources */,
+				8EBD634E07463BEA00FDD2E7 /* StringUtil.h in Resources */,
+				8EACB82F0757B3EC00C0F020 /* NSTextViewWithLinks.h in Resources */,
+				8EB6DBE10757C8E900FF4463 /* sound.tif in Resources */,
+				8EF63419075AAAB100980CDD /* search.tif in Resources */,
+				8E0241F1075B5DA000042083 /* ServicesMenu.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				8E43B335074387FA00386A1F /* ApplicationManager.m in Sources */,
+				8E43B3F407439A5600386A1F /* SearchManager.m in Sources */,
+				8E43B42507439BA100386A1F /* NMTextFieldCell.m in Sources */,
+				8E43B42707439BA100386A1F /* NMTextField.m in Sources */,
+				8E43B7D60743C16A00386A1F /* NMFontTransformer.m in Sources */,
+				8E43B8B80743CBFB00386A1F /* NMSpeechManager.m in Sources */,
+				8EBD634D07463BEA00FDD2E7 /* StringUtil.m in Sources */,
+				8EACB82E0757B3EB00C0F020 /* NSTextViewWithLinks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				8E8D318A07468EC700DBC040 /* Japanese */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				8EFD37F8075B566100DCA0A6 /* Japanese */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		8E0241F0075B5DA000042083 /* ServicesMenu.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0241E8075B5D7F00042083 /* English */,
+				8E0241F2075B5DA600042083 /* Japanese */,
+			);
+			name = ServicesMenu.strings;
+			sourceTree = "<group>";
+		};
+		8E8D315907468B3400DBC040 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E43B36F07438C1F00386A1F /* English */,
+				8E8D315B07468B3F00DBC040 /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E4D2B5909ECF8E800313449 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/numata/proj/EIJIRO Viewer\"";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EIJIRO Viewer_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "EIJIRO Viewer";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		8E4D2B5A09ECF8E800313449 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/numata/proj/EIJIRO Viewer\"";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EIJIRO Viewer_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "EIJIRO Viewer";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		8E4D2B5B09ECF8E800313449 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/numata/proj/EIJIRO Viewer\"";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EIJIRO Viewer_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "EIJIRO Viewer";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		8E4D2B5D09ECF8E800313449 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		8E4D2B5E09ECF8E800313449 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+		8E4D2B5F09ECF8E800313449 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E4D2B5809ECF8E800313449 /* Build configuration list for PBXNativeTarget "EIJIRO Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4D2B5909ECF8E800313449 /* Development */,
+				8E4D2B5A09ECF8E800313449 /* Deployment */,
+				8E4D2B5B09ECF8E800313449 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		8E4D2B5C09ECF8E800313449 /* Build configuration list for PBXProject "EIJIRO Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4D2B5D09ECF8E800313449 /* Development */,
+				8E4D2B5E09ECF8E800313449 /* Deployment */,
+				8E4D2B5F09ECF8E800313449 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

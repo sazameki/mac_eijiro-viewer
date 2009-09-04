@@ -1,0 +1,23 @@
+"TBI Move" = "Move";
+"TBI Pronounce" = "Pronounce";
+"TBI Search" = "Search";
+"TBI FullSearch" = "Full Search";
+
+"VER80_EXAMPLE_PREFIX" = "■・";
+"EXAMPLE_FIRST_PREFIX" = " /【用例】";
+
+"CANCELED_SEPARATOR" = "======== Canceled ========\n";
+
+"FULLSEARCH_TITLE_EIJIRO" = "//// 【EIJIRO】 ////";
+"FULLSEARCH_TITLE_RYAKUGORO" = "//// 【RYAKUGORO】 ////";
+"FULLSEARCH_TITLE_WAEIJIRO" = "//// 【WAEIJIRO】 ////";
+"FULLSEARCH_TITLE_REIJIRO" = "//// 【REIJIRO】 ////";
+
+"FULLSEARCH_NOTFOUND" = "  Not found.";
+
+"SEARCH_NOTFOUND" = "Not found '%@'.\n";
+"GUESS_NOTFOUND" = "\nNo guess.\n";
+"GUESS_TITLE" = "\nGuesses:\n";
+
+"FullSearchNoTarget" = "Search word is not specified.";
+"FullSearchNoDictionary" = "No dictionary is specified.";

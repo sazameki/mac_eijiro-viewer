@@ -1,0 +1,67 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                cancelFullSearch = id; 
+                centerSelectionInVisibleArea = id; 
+                clearDictionaryPaths = id; 
+                fixSearchString = id; 
+                fullSearch = id; 
+                performFindPanelAction = id; 
+                pronounce = id; 
+                referEijiroPath = id; 
+                referReijiroPath = id; 
+                referRyakugoroPath = id; 
+                referWaeijiroPath = id; 
+                searchFirstGuess = id; 
+                searchNext = id; 
+                searchPrevious = id; 
+                searchSecondGuess = id; 
+                selectFont = id; 
+                showPreferences = id; 
+                startFullSearch = id; 
+                startSpeaking = id; 
+                stopSpeaking = id; 
+            }; 
+            CLASS = ApplicationManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                fullSearchField = NSTextField; 
+                fullSearchView = NSView; 
+                fullSearchWindow = NSWindow; 
+                mainWindow = NSWindow; 
+                moveControl = NSSegmentedControl; 
+                moveView = NSView; 
+                preferencesWindow = NSWindow; 
+                pronounceButton = NSButton; 
+                pronounceView = NSView; 
+                resultView = NSTextView; 
+                searchField = NSTextField; 
+                searchManager = SearchManager; 
+                searchView = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = NMTextField; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; target = id; }; 
+            SUPERCLASS = NSTextField; 
+        }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSTextViewWithLinks; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {
+            CLASS = SearchManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                applicationManager = ApplicationManager; 
+                mainWindow = NSWindow; 
+                resultView = NSTextView; 
+                searchField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

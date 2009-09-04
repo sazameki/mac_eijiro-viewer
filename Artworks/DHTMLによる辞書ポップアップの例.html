@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<HEAD>
+	<META http-equiv="Content-Type" content="text/html; charset=euc-jp">
+	<META http-equiv="Content-Script-Type" content="text/javascript">
+	<TITLE>ポップアップメッセージ（その１）</TITLE>
+<style>
+<!--
+.dictPopup {
+	position:absolute;
+	visibility:hidden;
+	color:#000000;
+	font-size:8pt;
+	border:2px #ff4040 solid;
+	padding:4px;
+	background-color:#fff0f0;
+}
+.dictionary {
+#	text-decoration:underline;
+	background-color:#fff0a0;
+	cursor:pointer;
+}
+-->
+</style>
+<SCRIPT type="text/javascript" language="JavaScript">
+<!--
+
+// ポップアップメニューのメッセージ
+var dict = new Array();
+
+dict[0] = '■queer  {名-1} : 同性愛者、ホモ〔差別語〕◆軽べつ的<br>■queer  {名-2} : 〈俗〉偽金<br>■queer  {名-3} : 〈俗〉奇人、変わり者<br>■queer  {他動} : 〜をぶち壊す、めちゃくちゃにする<br>■queer  {形-1} : 奇妙な、変な、おかしい、変質の、妙な、少し気が狂った / 【用例・形-1】 There\'s something queer going on. : 何か奇妙なことが起こっている / There was a queer noise whenever the door opened. : そのドアが開くときにはいつでも奇妙な音がした。<br>■queer  {形-2} : いかがわしい、偽の、不正の<br>■queer  {形-3} : ホモの（ような）〔差別語〕、ホモ気のある〔差別語〕、同性愛の<br>■queer  {形-4} : 体の調子が悪い、気分が悪い'
+dict[1] = '■uncomfortable  {形} : 心地良くない、居心地の悪い、気詰まりな、落ち着かない、気が気でない、不安な、厄介な、警戒感のある、不愉快な / 【用例・形】 We were very uncomfortable at our parents\' house. : 私たちは両親の家で非常に居心地の悪い思いをした。'
+dict[2] = '■consultation  {名-1} : 相談、参照、専門家との相談、協議、会議 / 【用例・名-1】 The specialist will be available for consultation during the week that follows. : その後1週間は専門家がコンサルタントとしてご相談に乗ることになっております。 / The fee for a consultation is 50 dollars an hour. : 相談費用は1時間50ドルだ。<br>■consultation  {名-2} : 診察、外科相談'
+
+var x;
+var y;
+
+// メッセージデーターの先読み
+for (i = 0; i < dict.length; i++) {
+	document.write("<div id='dict" + i + "' class='dictPopup'>" + dict[i] + "</div>");
+}
+
+// マウス座標位置取得
+function handleMouse(event) {
+	x = event.clientX;
+	y = event.clientY;
+}
+
+// フローティングメッセージの表示
+function showDict(index) {
+	var thisspan = document.getElementById("dict" + index);
+	if (x + 300 < document.body.offsetWidth) {
+		thisspan.style.left = x;
+	} else {
+		thisspan.style.left = document.body.offsetWidth - 306;
+	}
+	thisspan.style.top = y + 20;
+	thisspan.style.width = 300;
+	thisspan.style.visibility = "visible";
+}
+
+// フローティングメッセージの非表示
+function hideDict(index) {
+	var thisspan = document.getElementById("dict" + index);
+	thisspan.style.visibility = "hidden";
+}
+
+// マウスイベント設定
+window.onmousemove = handleMouse;
+
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+
+<h2>Chapter III  A Caucus-Race and a Long Tale</h2>
+
+<p>They were indeed a <span class="dictionary" onMouseover="showDict(0)" onMouseout="hideDict(0)">queer</span>-looking party that assembled on the bank--the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and <span class="dictionary" onMouseover="showDict(1)" onMouseout="hideDict(1)">uncomfortable</span>.</p>
+
+<p>The first question of course was, how to get dry again: they had a <span class="dictionary" onMouseover="showDict(2)" onMouseout="hideDict(2)">consultation</span> about this, and after a few minutes it seemed quite natural to Alice to find herself talking familiarly with them, as if she had known them all her life. Indeed, she had quite a long argument with the Lory, who at last turned sulky, and would only say, `I am older than you, and must know better'; and this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said.</p>
+
+<p>At last the Mouse, who seemed to be a person of authority among them, called out, `Sit down, all of you, and listen to me!  I'LL soon make you dry enough!' They all sat down at once, in a large ring, with the Mouse in the middle. Alice kept her eyes anxiously fixed on it, for she felt sure she would catch a bad cold if she did not get dry very soon.</p>
+
+<p>`Ahem!' said the Mouse with an important air, `are you all ready? This is the driest thing I know. Silence all round, if you please! "William the Conqueror, whose cause was favoured by the pope, was soon submitted to by the English, who wanted leaders, and had been of late much accustomed to usurpation and conquest. Edwin and Morcar, the earls of Mercia and Northumbria- -"'</p>
+
+</BODY>
+</HTML>
